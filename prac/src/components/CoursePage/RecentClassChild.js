@@ -139,7 +139,7 @@ const RecentClassChild = (props) => {
 let cartitemdispay = mycourse.some((v) => v.id === props.value.id);
 
   return (
-    <Link to={`/video/${props.value.title}`} key={props.value.id}>
+    <Link to={`/video/63dfcf700f158c1a4cccda74`} key={props.value.id}>
       <li
         className="dCard"
         id={props.value.id}

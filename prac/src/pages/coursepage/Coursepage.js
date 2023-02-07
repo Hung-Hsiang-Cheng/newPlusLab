@@ -41,7 +41,7 @@ const Coursepage = () => {
   ];
 
 
-
+window.scrollTo(0, 0);
   
 const username =
   memoryUtils.user.username || memoryUtils.user.displayName || "";

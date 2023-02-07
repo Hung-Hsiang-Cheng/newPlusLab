@@ -19,6 +19,10 @@ const Checkpage = (props) => {
       compos: CheckMod,
     },
   ];
+
+window.scrollTo(0,0);
+
+
   const username =
     memoryUtils.user.username || memoryUtils.user.displayName || "";
   return (

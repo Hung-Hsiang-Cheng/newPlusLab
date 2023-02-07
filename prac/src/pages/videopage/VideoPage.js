@@ -19,6 +19,10 @@ const VideoPage = () => {
   const videoRefProps = useRef(null);
   const username =
     memoryUtils.user.username || memoryUtils.user.displayName || "";
+
+  window.scrollTo(0, 0);
+
+
   return (
     <Fragment>
       {username ? <Nav /> : <NavLogOut />}

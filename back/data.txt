@@ -1,0 +1,462 @@
+db.getCollection("courseList").insert( {
+    "_id": "63dfcf700f158c1a4cccda74",
+    "courseList": [
+      {
+        "classname": "投資新手村-基本面財報選股法",
+        "content": [
+          
+        ],
+        "_id": "63dfcf700f158c1a4cccda75"
+      },
+      {
+        "title": "前言-股票篇",
+        "content": [
+          "選股SOP戰略",
+          "選股SOP核心概念"
+        ],
+        "_id": "63dfcf700f158c1a4cccda76"
+      },
+      {
+        "title": "應用研究報告分析法建立SOP ",
+        "content": [
+          "產業景氣",
+          "個股財報"
+        ],
+        "_id": "63dfcf700f158c1a4cccda77"
+      },
+      {
+        "title": "掌握基本面、技術面、籌碼面-技術分析篇",
+        "content": [
+          "基本分析是股票基礎",
+          "籌碼與技術分析的交叉比對"
+        ],
+        "_id": "63dfcf700f158c1a4cccda78"
+      },
+      {
+        "title": "掌握基本面、技術面、籌碼面-籌碼分析篇",
+        "content": [
+          "法人籌碼的細部確認",
+          "主力成本線跟籌碼分析的交叉應用",
+          "用回測來交叉確認之案例講解"
+        ],
+        "_id": "63dfcf700f158c1a4cccda79"
+      },
+      {
+        "title": "建立自己的股票評分表",
+        "content": [
+          "交叉選股法的研究案例",
+          "有效率的研究股票，永續投資之道"
+        ],
+        "_id": "63dfcf700f158c1a4cccda7a"
+      }
+
+  })
+
+
+
+
+db.getCollection("Discount").insertMany([{
+id: 1,
+EXP: ISODate("2023-02-28T20:58:04.000+08:00"),
+discountName: "和平日8",
+Timestamp: Timestamp(1674910966, 1),
+user: ObjectId("63c0f62ae1064a2608f06f22"),
+discountCode: "good",	discount: 0.8
+},
+{
+id: 1,
+EXP: ISODate("2023-02-28T20:58:04.000+08:00"),
+discountName: "和平日111",
+Timestamp: Timestamp(1674910966, 1),
+user: ObjectId("63c0f62ae1064a2608f06f22"),
+discountCode: "good111",
+discount: 0.6
+},
+{
+id: 1,
+EXP: ISODate("2023-02-28T20:58:04.000+08:00"),
+discountName: "和平日111",
+Timestamp: Timestamp(1674910966, 1),
+user: ObjectId("63c0f62ae1064a2608f06f22"),
+discountCode: "good111",
+discount: 0.6
+},
+{
+id: 3,
+EXP: ISODate("2023-02-04T20:58:04.000+08:00"),
+discountName: "認真學習6",
+Timestamp: Timestamp(1674910966, 1),
+user: ObjectId("63c0f62ae1064a2608f06f22"),
+discountCode: "studyhard6",
+discount: 0.6
+}])
+
+
+db.getCollection("Course").insertMany([{
+	"id" : 1,
+	"img" : "/img/two.jpg",
+	"url" : "https://picsum.photos/500/300",
+	"title" : "20堂課教你存好股，打造投資現金流",
+	"price" : 670,
+	"special" : 650,
+	"text" : "存好股打造自我最棒的理財力。",
+	"star" : 3,
+	"ratecount" : 9,
+	"students" : 549,
+	"videLength" : 1,
+	"teacher" : "Jacky Wei",
+	"timestamps" : Timestamp(1600312856, 1)
+},
+
+/* 2 createdAt:2023/1/19 上午9:30:18*/
+{
+	"id" : 25,
+	"img" : "/img/BAFAT.jpg",
+	"url" : "https://picsum.photos/500/300",
+	"title" : "巴菲特的選股寶典",
+	"price" : 1690,
+	"special" : 330,
+	"text" : "要學投資，就要學全世界公認的股神「華倫 巴菲特」｜台股、美股都適用",
+	"star" : 5,
+	"ratecount" : 51,
+	"students" : 16,
+	"videLength" : 2.5,
+	"teacher" : "翔泰學校 Tai School",
+	"timestamps" : Timestamp(1643685656, 1)
+},
+
+/* 3 createdAt:2023/1/19 上午9:30:18*/
+{
+	"img" : "/img/stockiseasy.jpg",
+	"url" : "https://picsum.photos/500/300",
+	"title" : "股票不難，難的是人性!!",
+	"price" : 1170,
+	"special" : 1070,
+	"text" : "教你如何正確安全買賣股票~",
+	"star" : 4,
+	"ratecount" : 67,
+	"students" : 347,
+	"videLength" : 1.2,
+	"teacher" : "John Chen",
+	"timestamps" : Timestamp(1512098456, 1)
+},
+
+/* 4 createdAt:2023/1/19 上午9:30:18*/
+{
+	"id" : 22,
+	"img" : "/img/ETF.jpg",
+	"url" : "https://picsum.photos/500/300",
+	"title" : "ETF基礎｜戰勝心魔，回歸投資的初心",
+	"price" : 1320,
+	"special" : 990,
+	"text" : "ETF懶人投資法，原來巴菲特也是這樣投資的！",
+	"star" : 4,
+	"ratecount" : 3,
+	"students" : 13,
+	"videLength" : 2,
+	"teacher" : "翔泰學校 Tai School",
+	"timestamps" : Timestamp(1647487256, 1)
+},
+
+/* 5 createdAt:2023/1/19 上午9:30:18*/
+{
+	"id" : 21,
+	"img" : "/img/zero.jpg",
+	"url" : "https://picsum.photos/500/300",
+	"title" : "從零開始學習股票技術分析",
+	"price" : 4990,
+	"special" : 4990,
+	"text" : "您下載程式後，即可以邊學邊操作程式，跟著我的講解亦步亦趨，徹底理解K線圖以及各種指標的真正意義。極適合當沖及程式交易學習者用來墊定堅實的基礎。",
+	"star" : 5,
+	"ratecount" : 130,
+	"students" : 1291,
+	"videLength" : 12,
+	"teacher" : "William Wang",
+	"timestamps" : Timestamp(1617765656, 1)
+},
+
+/* 6 createdAt:2023/1/19 上午9:30:18*/
+{
+	"id" : 20,
+	"img" : "/img/good.jpg",
+	"url" : "https://picsum.photos/500/300",
+	"title" : "股票、基金、ETF快速入門",
+	"price" : 1320,
+	"special" : 1000,
+	"text" : "理解專有名詞，看懂各式投資資訊；快速有效挑選，適合自己的投資法；學會運用小額，進場投資降低風險；交戰新手選股，撰寫自我投資計劃；看懂基金運作，定期定額穩定操作；保險產品投資，提前規劃退休生活",
+	"star" : 0,
+	"ratecount" : 0,
+	"students" : 10,
+	"videLength" : 2.5,
+	"teacher" : "翔泰學校 Tai School",
+	"timestamps" : Timestamp(1643685656, 1)
+},
+
+/* 7 createdAt:2023/1/19 上午9:30:18*/
+{
+	"id" : 19,
+	"img" : "/img/noteasy.jpg",
+	"url" : "https://picsum.photos/500/300",
+	"title" : "股票不難，只要做好基本功!!",
+	"price" : 1490,
+	"special" : 390,
+	"text" : "學會買在起漲點，適合股票、基金、外幣等操作",
+	"star" : 4,
+	"ratecount" : 32,
+	"students" : 260,
+	"videLength" : 5,
+	"teacher" : "John Chen",
+	"timestamps" : Timestamp(1516159256, 1)
+},
+
+/* 8 createdAt:2023/1/19 上午9:30:18*/
+{
+	"id" : 17,
+	"img" : "/img/tick.jpg",
+	"url" : "https://picsum.photos/500/300",
+	"title" : "選擇權投資基礎入門｜縱橫盤勢變化的門票",
+	"price" : 1320,
+	"special" : 500,
+	"text" : "以小博大、縱橫股海、波動操作的最佳利器",
+	"star" : 0,
+	"ratecount" : 0,
+	"students" : 5,
+	"videLength" : 2.5,
+	"teacher" : "翔泰學校 Tai School",
+	"timestamps" : Timestamp(1645068056, 1)
+},
+
+/* 9 createdAt:2023/1/19 上午9:30:18*/
+{
+	"id" : 16,
+	"img" : "/img/herry.jpg",
+	"url" : "https://picsum.photos/500/300",
+	"title" : "效率存股｜打造每月穩定現金流",
+	"price" : 1690,
+	"special" : 350,
+	"text" : "不要被限縮的投資觀念而打敗，打造自我的理財力。",
+	"star" : 5,
+	"ratecount" : 2,
+	"students" : 12,
+	"videLength" : 1.5,
+	"teacher" : "翔泰學校 Tai School",
+	"timestamps" : Timestamp(1645068056, 1)
+},
+
+/* 10 createdAt:2023/1/19 上午9:30:18*/
+{
+	"id" : 15,
+	"img" : "/img/gobel.jpg",
+	"title" : "官股行庫操作分析研判方法",
+	"price" : 990,
+	"special" : 990,
+	"text" : "運用官股行庫的買賣訊息，研判主力內資動向並推測盤勢多空方向的技巧",
+	"star" : 5,
+	"ratecount" : 38,
+	"students" : 130,
+	"videLength" : 0.3,
+	"teacher" : "林隆炫 （炫哥講股）",
+	"timestamps" : Timestamp(1673925656, 1),
+	"url" : "https://picsum.photos/500/300"
+},
+
+/* 11 createdAt:2023/1/19 上午9:30:18*/
+{
+	"id" : 14,
+	"img" : "/img/road.jpg",
+	"title" : "财务自由之路",
+	"price" : 3290,
+	"special" : 3290,
+	"text" : "零起点投资理财入门课——用投资铸造你的自由",
+	"star" : 5,
+	"ratecount" : 55,
+	"students" : 263,
+	"videLength" : 4,
+	"teacher" : "Ben Chu Tang",
+	"timestamps" : Timestamp(1550373656, 1),
+	"url" : "https://picsum.photos/500/300"
+},
+
+/* 12 createdAt:2023/1/19 上午9:30:18*/
+{
+	"id" : 13,
+	"img" : "/img/up.jpg",
+	"title" : "投資新手村-財務槓桿篇",
+	"price" : 1490,
+	"special" : 330,
+	"text" : "放大你的投資結果/加速你的目標",
+	"star" : 5,
+	"ratecount" : 5,
+	"students" : 129,
+	"videLength" : 1,
+	"teacher" : "Jacky Wei",
+	"timestamps" : Timestamp(1623900056, 1),
+	"url" : "https://picsum.photos/500/300"
+},
+
+/* 13 createdAt:2023/1/19 上午9:30:18*/
+{
+	"id" : 12,
+	"img" : "/img/hirr.jpg",
+	"title" : "1 堂課打造理財力 - 股票、基金快速入門！",
+	"price" : 2480,
+	"special" : 2000,
+	"text" : " 快速有效挑選，適合自己的投資法",
+	"star" : 4,
+	"ratecount" : 3,
+	"students" : 132,
+	"videLength" : 2.9,
+	"teacher" : "Romero美羅",
+	"timestamps" : Timestamp(1658028056, 1),
+	"url" : "https://picsum.photos/500/300"
+},
+
+/* 14 createdAt:2023/1/19 上午9:30:18*/
+{
+	"id" : 11,
+	"img" : "/img/You.jpg",
+	"title" : "從 0 開始學量化投資",
+	"price" : 2290,
+	"special" : 1200,
+	"text" : "輕鬆學：建置個人專屬選股系統",
+	"star" : 5,
+	"ratecount" : 20,
+	"students" : 183,
+	"videLength" : 9,
+	"teacher" : "Ta-Cheng Chang",
+	"timestamps" : Timestamp(1667272856, 1),
+	"url" : "https://picsum.photos/500/300"
+},
+
+/* 15 createdAt:2023/1/19 上午9:30:18*/
+{
+	"id" : 9,
+	"img" : "/img/casddd.jpg",
+	"title" : "債券投資入門術｜利息養成現金流",
+	"price" : 1320,
+	"special" : 990,
+	"text" : "保息保本 就靠這招",
+	"star" : 0,
+	"ratecount" : 0,
+	"students" : 3,
+	"videLength" : 3,
+	"teacher" : "翔泰學校 Tai School",
+	"timestamps" : Timestamp(1660533656, 1),
+	"url" : "https://picsum.photos/500/300"
+},
+
+/* 16 createdAt:2023/1/19 上午9:30:18*/
+{
+	"id" : 8,
+	"img" : "/img/other.jpg",
+	"title" : "金融衍生品 /  另類投資",
+	"price" : 1170,
+	"special" : 330,
+	"text" : "金融衍生品介紹、選擇權、期貨、互換合約、避險基金、私募基金、不動產、大宗商品",
+	"star" : 0,
+	"ratecount" : 0,
+	"students" : 13,
+	"videLength" : 6.5,
+	"teacher" : "Beginnerscash Ltd. Co.",
+	"timestamps" : Timestamp(1633922456, 1),
+	"url" : "https://picsum.photos/500/300"
+},
+
+/* 17 createdAt:2023/1/19 上午9:30:18*/
+{
+	"id" : 7,
+	"img" : "/img/haer.jpg",
+	"title" : "被動投資 資產配置｜打造你的主動人生",
+	"price" : 1690,
+	"special" : 350,
+	"text" : "學會此方法，用「被動投資打造你的主動人生」。",
+	"star" : 5,
+	"ratecount" : 2,
+	"students" : 19,
+	"videLength" : 2.5,
+	"teacher" : "翔泰學校 Tai School",
+	"timestamps" : Timestamp(1645068056, 1),
+	"url" : "https://picsum.photos/500/300"
+},
+
+/* 18 createdAt:2023/1/19 上午9:30:18*/
+{
+	"id" : 6,
+	"img" : "/img/sysic.jpg",
+	"title" : "技術分析常用入門｜規劃盤勢 風險控管",
+	"price" : 1320,
+	"special" : 980,
+	"text" : "聰明選股即刻上手、風險控管勢如破竹！",
+	"star" : 3,
+	"ratecount" : 1,
+	"students" : 6,
+	"videLength" : 4,
+	"teacher" : "翔泰學校 Tai School",
+	"timestamps" : Timestamp(1652757656, 1),
+	"url" : "https://picsum.photos/500/300"
+},
+
+/* 19 createdAt:2023/1/19 上午9:30:18*/
+{
+	"id" : 5,
+	"img" : "/img/deal.jpg",
+	"title" : "詭譎多變的市場裡，永恆不變的指引",
+	"price" : 1170,
+	"special" : 1070,
+	"text" : "市場與網路上有太多虛幻的雜訊，或許該真正了解何謂投資。",
+	"star" : 3,
+	"ratecount" : 1,
+	"students" : 8,
+	"videLength" : 1.5,
+	"teacher" : "翔泰學校 Tai School",
+	"timestamps" : Timestamp(1650165656, 1),
+	"url" : "https://picsum.photos/500/300"
+},
+
+/* 20 createdAt:2023/1/19 上午9:30:18*/
+{
+	"id" : 4,
+	"img" : "/img/one.jpg",
+	"title" : "財務報表的第一堂課｜窺探公司背後的祕密",
+	"price" : 1320,
+	"special" : 1300,
+	"text" : "1. 被問到任何一家上市公司，都能快速分析出這家公司財報優缺點的重要評論 2. 當不知道該選擇那間公司作為投資標的時，能夠有條有理找到自己的觀察個股清單，並且說出理由 3. 財務基礎的名詞、觀念都能正確解讀，知道定義與實質上的重點",
+	"star" : 4,
+	"ratecount" : 5,
+	"students" : 17,
+	"videLength" : 1.5,
+	"teacher" : "翔泰學校 Tai School",
+	"timestamps" : Timestamp(1647487256, 1),
+	"url" : "https://picsum.photos/500/300"
+},{
+	"id" : 10,
+	"img" : "/img/school.jpg",
+	"title" : "股市投資基礎入門｜台大證券研究社的第一堂課",
+	"price" : 1170,
+	"special" : 970,
+	"text" : "台大證券研究社的第一堂課｜第34屆社長 親自講授",
+	"star" : 0,
+	"ratecount" : 0,
+	"students" : 5,
+	"videLength" : 2,
+	"teacher" : "翔泰學校 Tai School",
+	"timestamps" : Timestamp(1645068056, 1),
+	"url" : "https://picsum.photos/500/300"
+},
+
+/* 25 createdAt:2023/1/17 上午11:27:29*/
+{
+	"id" : 23,
+	"img" : "/img/toYou.jpg",
+	"url" : "https://picsum.photos/500/300",
+	"title" : "非凡葉芷娟跟你一起解讀散戶的 50 道難題",
+	"price" : 990,
+	"special" : 990,
+	"text" : " 一堂能讓各種交易風格都能更強大的衝刺課程！夠短，夠直接，能兼容在不同投資思維之中，能兼容在不同投資思維之中",
+	"star" : 5,
+	"ratecount" : 1,
+	"students" : 7,
+	"videLength" : 1,
+	"teacher" : "moneybar 亼富",
+	"timestamps" : Timestamp(1534476056, 1)
+}])

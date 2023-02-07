@@ -139,7 +139,7 @@ let cartitemdispay=(mycourse.some((v)=>v.id===props.value.id))
 
 
   return (
-    <Link to={`/video/${props.value.id}`}>
+    <Link to={`/video/63dfcf700f158c1a4cccda74`}>
       <li
         className="dCard"
         id={props.value.id}

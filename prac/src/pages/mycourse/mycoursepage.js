@@ -21,12 +21,11 @@ const MyCoursepage = () => {
       clsNam: ["divText"],
       compos: MyCourse,
     },
-  
   ];
 
   const username =
     memoryUtils.user.username || memoryUtils.user.displayName || "";
-
+  window.scrollTo(0, 0);
   return (
     <Fragment>
       {/* <Helmet><title>課程列表</title> </Helmet> */}
@@ -39,7 +38,6 @@ const MyCoursepage = () => {
               <span>{t.title}</span>
             </div>
             <t.compos />
-      
           </Fragment>
         );
       })}

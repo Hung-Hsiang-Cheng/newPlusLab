@@ -10,7 +10,7 @@ const OrderHistoryMod = () => {
     state: { cart, order, history },
     dispatch,
   } = CartState();
-
+console.log(history);
   const State = {
     titles: [
       {
