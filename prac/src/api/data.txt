@@ -1,3 +1,6 @@
+
+
+影片
 db.getCollection("courseList").insert( {
     "_id": "63dfcf700f158c1a4cccda74",
     "courseList": [
@@ -55,6 +58,18 @@ db.getCollection("courseList").insert( {
 
 
 
+
+
+
+
+
+
+
+
+
+
+折扣碼
+
 db.getCollection("Discount").insertMany([{
 id: 1,
 EXP: ISODate("2023-02-28T20:58:04.000+08:00"),
@@ -66,20 +81,20 @@ discountCode: "good",	discount: 0.8
 {
 id: 1,
 EXP: ISODate("2023-02-28T20:58:04.000+08:00"),
-discountName: "和平日111",
+discountName: "愉快學習9",
 Timestamp: Timestamp(1674910966, 1),
 user: ObjectId("63c0f62ae1064a2608f06f22"),
 discountCode: "good111",
-discount: 0.6
+discount: 0.9
 },
 {
 id: 1,
 EXP: ISODate("2023-02-28T20:58:04.000+08:00"),
-discountName: "和平日111",
+discountName: "生日快樂7",
 Timestamp: Timestamp(1674910966, 1),
 user: ObjectId("63c0f62ae1064a2608f06f22"),
-discountCode: "good111",
-discount: 0.6
+discountCode: "happybirthday7",
+discount: 0.7
 },
 {
 id: 3,
@@ -92,7 +107,28 @@ discount: 0.6
 }])
 
 
-db.getCollection("Course").insertMany([{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//課程
+
+
+db.getCollection("Course").insertMany([/* 1 createdAt:2023/2/5 下午4:45:22*/
+{
+	
 	"id" : 1,
 	"img" : "/img/two.jpg",
 	"url" : "https://picsum.photos/500/300",
@@ -110,6 +146,7 @@ db.getCollection("Course").insertMany([{
 
 /* 2 createdAt:2023/1/19 上午9:30:18*/
 {
+	
 	"id" : 25,
 	"img" : "/img/BAFAT.jpg",
 	"url" : "https://picsum.photos/500/300",
@@ -127,6 +164,8 @@ db.getCollection("Course").insertMany([{
 
 /* 3 createdAt:2023/1/19 上午9:30:18*/
 {
+	
+	"id" : 24,
 	"img" : "/img/stockiseasy.jpg",
 	"url" : "https://picsum.photos/500/300",
 	"title" : "股票不難，難的是人性!!",
@@ -194,7 +233,6 @@ db.getCollection("Course").insertMany([{
 
 /* 7 createdAt:2023/1/19 上午9:30:18*/
 {
-	"id" : 19,
 	"img" : "/img/noteasy.jpg",
 	"url" : "https://picsum.photos/500/300",
 	"title" : "股票不難，只要做好基本功!!",
@@ -211,7 +249,6 @@ db.getCollection("Course").insertMany([{
 
 /* 8 createdAt:2023/1/19 上午9:30:18*/
 {
-	"id" : 17,
 	"img" : "/img/tick.jpg",
 	"url" : "https://picsum.photos/500/300",
 	"title" : "選擇權投資基礎入門｜縱橫盤勢變化的門票",
@@ -245,6 +282,7 @@ db.getCollection("Course").insertMany([{
 
 /* 10 createdAt:2023/1/19 上午9:30:18*/
 {
+
 	"id" : 15,
 	"img" : "/img/gobel.jpg",
 	"title" : "官股行庫操作分析研判方法",
@@ -330,6 +368,7 @@ db.getCollection("Course").insertMany([{
 
 /* 15 createdAt:2023/1/19 上午9:30:18*/
 {
+	
 	"id" : 9,
 	"img" : "/img/casddd.jpg",
 	"title" : "債券投資入門術｜利息養成現金流",
@@ -347,6 +386,7 @@ db.getCollection("Course").insertMany([{
 
 /* 16 createdAt:2023/1/19 上午9:30:18*/
 {
+
 	"id" : 8,
 	"img" : "/img/other.jpg",
 	"title" : "金融衍生品 /  另類投資",
@@ -415,6 +455,7 @@ db.getCollection("Course").insertMany([{
 
 /* 20 createdAt:2023/1/19 上午9:30:18*/
 {
+
 	"id" : 4,
 	"img" : "/img/one.jpg",
 	"title" : "財務報表的第一堂課｜窺探公司背後的祕密",
@@ -428,7 +469,62 @@ db.getCollection("Course").insertMany([{
 	"teacher" : "翔泰學校 Tai School",
 	"timestamps" : Timestamp(1647487256, 1),
 	"url" : "https://picsum.photos/500/300"
-},{
+},
+
+/* 21 createdAt:2023/1/19 上午9:30:18*/
+{
+	
+	"id" : 3,
+	"img" : "/img/all.jpg",
+	"url" : "https://picsum.photos/500/300",
+	"title" : "期貨投資基礎入門｜建立全盤的交易模式與策略",
+	"price" : 990,
+	"special" : 990,
+	"text" : "在眾多投資工具中，期貨以多空靈活操作、保證金交易以小博大高報酬的特性，在市場中脫穎而出！是你不可或缺的投資武器之一",
+	"star" : 4,
+	"ratecount" : 1,
+	"students" : 5,
+	"videLength" : 1,
+	"teacher" : "翔泰學校 Tai School",
+	"timestamps" : Timestamp(1645068056, 1)
+},
+
+/* 22 createdAt:2023/1/19 上午9:30:18*/
+{
+"id" : 2,
+	"img" : "/img/stae.jpg",
+	"url" : "https://picsum.photos/500/300",
+	"title" : "投資新手村-基本籌碼面",
+	"price" : 1170,
+	"special" : 1100,
+	"text" : "總是有人先知道，用籌碼提升勝率",
+	"star" : 4,
+	"ratecount" : 14,
+	"students" : 371,
+	"videLength" : 0.5,
+	"teacher" : "Jacky Wei",
+	"timestamps" : Timestamp(1686972056, 1)
+},
+
+/* 23 createdAt:2023/1/19 上午9:30:18*/
+{
+	"id" : 27,
+	"img" : "/img/new.jpg",
+	"url" : "https://picsum.photos/500/300",
+	"title" : "投資新手村-基本面財報選股法",
+	"price" : 990,
+	"special" : 330,
+	"text" : "解析基礎財務指標讓你對股票的估價更有概念",
+	"star" : 5,
+	"ratecount" : 9,
+	"students" : 14,
+	"videLength" : 1.5,
+	"teacher" : "徐阿莫",
+	"timestamps" : Timestamp(1675740056, 1)
+},
+
+/* 24 createdAt:2023/1/17 上午11:28:52*/
+{
 	"id" : 10,
 	"img" : "/img/school.jpg",
 	"title" : "股市投資基礎入門｜台大證券研究社的第一堂課",
